@@ -50,7 +50,7 @@ async def main():
         print("Working On Bot Token 1⚡")
         try:
             AlizaBot1 = TelegramClient("AlizaSpamBot1", api_id=API_ID, api_hash=API_HASH)
-            print("Bot Token 1 OK✅")
+            print("Successfully wroking on Bot Token 1✅")
             await AlizaBot1.start(bot_token=BOT_TOKEN1)
         except Exception as e:
             print(e)
@@ -68,7 +68,7 @@ async def main():
         print("Working On Bot Token 2⚡")
         try:
             AlizaBot2 = TelegramClient("AlizaSpamBot2", api_id=API_ID, api_hash=API_HASH)
-            print("Bot Token 2 OK✅")
+            print("Successfully wroking on Bot Token 2✅")
             await AlizaBot2.start(bot_token=BOT_TOKEN2)
         except Exception as e:
             print(e)
@@ -86,7 +86,7 @@ async def main():
         print("Working On Bot Token 3⚡")
         try:
             AlizaBot3 = TelegramClient("AlizaSpamBot3", api_id=API_ID, api_hash=API_HASH)
-            print("Bot Token 3 OK✅")
+            print("Successfully wroking on Bot Token 3✅")
             await AlizaBot3.start(bot_token=BOT_TOKEN3)
         except Exception as e:
             print(e)
@@ -104,7 +104,7 @@ async def main():
         print("Working On Bot Token 4⚡")
         try:
             AlizaBot4 = TelegramClient("AlizaSpamBot4", api_id=API_ID, api_hash=API_HASH)
-            print("Bot Token 4 OK✅")
+            print("Successfully wroking on Bot Token 4✅")
             await AlizaBot4.start(bot_token=BOT_TOKEN4)
         except Exception as e:
             print(e)
@@ -122,7 +122,7 @@ async def main():
         print("Working On Bot Token 5⚡")
         try:
             AlizaBot5 = TelegramClient("AlizaSpamBot5", api_id=API_ID, api_hash=API_HASH)
-            print("Bot Token 5 OK✅")
+            print("Successfully wroking on Bot Token 5✅")
             await AlizaBot5.start(bot_token=BOT_TOKEN5)
         except Exception as e:
             print(e)
