@@ -16,7 +16,7 @@ async def replyraid(e):
         name = e.sender.first_name
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
-        me = await MafiaBot1.get_me()
+        me = await AlizaBot1.get_me()
         global enemy
         if e.is_reply is True:
             replied = await e.get_reply_message()
